@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About us.aspx" />
+    <Content Include="autopost.aspx" />
     <Content Include="HELLO.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="About us.aspx.designer.cs">
       <DependentUpon>About us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="autopost.aspx.cs">
+      <DependentUpon>autopost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="autopost.aspx.designer.cs">
+      <DependentUpon>autopost.aspx</DependentUpon>
     </Compile>
     <Compile Include="HELLO.aspx.cs">
       <DependentUpon>HELLO.aspx</DependentUpon>
