@@ -18,5 +18,10 @@ namespace _6CEBLAB
         {
             Label1.Text = "your city is:" +ListBox1.SelectedItem.ToString();
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            Label1.Text="selected date:"+Calendar1.SelectedDate.ToString();
+        }
     }
 }

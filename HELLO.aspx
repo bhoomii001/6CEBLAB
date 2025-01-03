@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HELLO.aspx.cs" Inherits="_6CEBLAB.HELLO" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HELLO.aspx.cs" Inherits="_6CEBLAB.HELLO" MasterPageFile="~/Site2.Master" %>
 
 <!DOCTYPE html>
 

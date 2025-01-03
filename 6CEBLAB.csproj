@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="About us.aspx" />
     <Content Include="autopost.aspx" />
+    <Content Include="demomaster.aspx" />
     <Content Include="HELLO.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,13 @@
     <Compile Include="autopost.aspx.designer.cs">
       <DependentUpon>autopost.aspx</DependentUpon>
     </Compile>
+    <Compile Include="demomaster.aspx.cs">
+      <DependentUpon>demomaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demomaster.aspx.designer.cs">
+      <DependentUpon>demomaster.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HELLO.aspx.cs">
       <DependentUpon>HELLO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,10 +103,33 @@
     <Compile Include="HELLO.aspx.designer.cs">
       <DependentUpon>HELLO.aspx</DependentUpon>
     </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
